@@ -1,0 +1,32 @@
+#lightbox{
+	background-color:#d3d3d3;
+	padding: 8px;
+}
+	
+#lightboxCaption { 
+	float: left;
+}
+
+#closeButton { 
+	top: -25px; 
+	right: -25px; 
+}
+
+#lightbox img { 
+	border: none; 
+	clear: both;
+} 
+#overlay img {
+	border: none; 
+}
+
+#overlay {
+ background-image: url(overlay.png); 
+}
+
+* html #overlay {
+	background-color: #333;
+	back\ground-color: transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+}
+	
